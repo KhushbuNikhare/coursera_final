@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9vb8j7bQUuJtuvqxu3-i-1xbb6wKEGb59XXTmTAS7IGya9qly3J9ZFgRr0CNV5dkjG4Q&usqp=CAU"
+        type="image/x-icon">
+
+    <title>Document</title>
+    <link href="./styles/navbar.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="main"></div>
+    <div id="earnbar"></div>
+</body>
+
+</html>
+<script type="module">
+
+    import navbar from "./components/navbar.js"
+    console.log(navbar);
+
+    let main = document.getElementById('main');
+    main.innerHTML = navbar();
+
+
+    import explore from "./components/explore.js"
+    console.log(explore);
+
+    let flag = false;
+    document.getElementById("explore").addEventListener("mouseenter", () => {
+        var subNav = document.getElementById("showSubNav");
+        if (flag) {
+            subNav.style.display = "block";
+        } else {
+            subNav.style.display = "none";
+        }
+        flag = !flag;
+    });
+    document.getElementById("explore").addEventListener("mouseout", () => {
+        var subNav = document.getElementById("showSubNav");
+        if (flag) {
+            subNav.style.display = "block";
+        } else {
+            subNav.style.display = "none";
+        }
+        flag = !flag;
+    });
+
+    console.log(document.querySelector("#duffy"));
+    document.querySelector("#duffy").addEventListener("click", () => {
+        console.log("hello");
+    });
+    document.getElementById("earnbar").innerHTML = explore();
+
+</script>

@@ -1,0 +1,128 @@
+#online {
+  display: flex;
+  gap: 5%;
+  background-color: #00255d;
+  height: 630px;
+}
+
+#left {
+  color: white;
+  margin-left: 20%;
+  margin-top: 12.5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#right {
+  background-color: white;
+  width: 30%;
+  position: relative;
+  border-radius: 5px;
+  margin-left: 12%;
+  height: 78%;
+  align-content: center;
+  margin-top: 3.5%;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.btn {
+  width: 86%;
+  height: 38px;
+  margin-bottom: 4%;
+  margin-left: -5%;
+  background-color: #0056d2;
+  color: whitesmoke;
+  margin-top: 3%;
+}
+
+.careers {
+  height: 40px;
+  font-size: 17px;
+  width: 280px;
+}
+
+.flex {
+  display: flex;
+  gap: 5%;
+}
+
+.center {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#flex {
+  display: flex;
+  gap: 5%;
+  margin-left: 10%;
+  height: 30%;
+  /* border: 1px solid black; */
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.para {
+  width: 40%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+
+.pictures img {
+  width: 80%;
+  /* border: 1px solid red; */
+}
+
+#bachelor {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  height: 120%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+#postgraduate {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  height: 120%;
+  width: 115%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+#masters {
+  height: 120%;
+  /* border: 1px solid red; */
+  font-size: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+#leading {
+  display: grid;
+  gap: 10%;
+  margin-bottom: 5%;
+  grid-column-gap: 12%;
+  grid-row-gap: 12%;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 25% 25%;
+  margin-left: 5%;
+}
+
+/* .pictures>img {
+    width: 200px;
+    border-radius: 50%;
+} */
+
+#insta {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 4%;
+  height: 100px;
+  margin-left: 5%;
+}
+
+#instructpic {
+  padding: 10%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* box-shadow: 52px -22px #E0E0E0; */
+}

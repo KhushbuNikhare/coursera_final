@@ -1,0 +1,35 @@
+#khush {
+  width: 90%;
+  margin-left: 5%;
+  height: 70%;
+}
+#main {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  /* text-overflow: ellipsis; */
+  cursor: pointer;
+  justify-content: space-around;
+  gap: 1%;
+  margin-top: 5%;
+  /* border: 1px solid black; */
+}
+#datadiv {
+  height: 570px;
+  cursor: pointer;
+  border-radius: 20px;
+  justify-content: center;
+}
+#btn {
+  width: 90%;
+  border-radius: 8px;
+  margin-left: 5%;
+  justify-self: center;
+  height: 40px;
+  margin-top: 5%;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+#divId {
+  text-overflow: hidden;
+}
